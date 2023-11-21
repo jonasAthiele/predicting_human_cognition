@@ -125,7 +125,7 @@ External functions used in the scripts can be found in the `external_functions` 
 1.	D. C. Van Essen, et al., The WU-Minn Human Connectome Project: An overview. Neuroimage 80, 62–79 (2013).
 2.	L. Snoek, et al., The Amsterdam Open MRI Collection, a set of multimodal MRI datasets for individual difference analyses. Sci. Data 8, 85 (2021).
 3.	M. F. Glasser, et al., The minimal preprocessing pipelines for the Human Connectome Project. Neuroimage 80, 105–124 (2013).
-4.	L. Parkes, B. Fulcher, M. Yücel, A. Fornito, An evaluation of the efficacy, reliability, and sensitivity of motion correction strategies for resting-state functional MRI. Neuroimage 171, 415–436 (2018).
+4.	L. Parkes, et al., An evaluation of the efficacy, reliability, and sensitivity of motion correction strategies for resting-state functional MRI. Neuroimage 171, 415–436 (2018).
 5.	M. W. Cole, et al., Task activations produce spurious but systematic inflation of task functional connectivity estimates. Neuroimage 189, 1–18 (2019).
 6.	O. Esteban, et al., fMRIPrep: a robust preprocessing pipeline for functional MRI. Nat. Methods 16, 111–116 (2019).
 7.	A. Schaefer, et al., Local-Global Parcellation of the Human Cerebral Cortex from Intrinsic Functional Connectivity MRI. Cereb. Cortex 28, 3095–3114 (2018).
