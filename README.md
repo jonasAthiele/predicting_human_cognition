@@ -1,14 +1,14 @@
 # Predicting Human Cognition
 
 ## 1. Scope
-The repository contains scripts for the analyses used in the paper **"Can machine learning-based predictive modelling improve our understanding of human cognition?"** coauthored by Jonas A. Thiele, Joshua Faskowitz, Olaf Sporns, and Kirsten Hilger. Herein, intelligence is predicted from functional brain connectivity of different selections of brain links. If you have questions or trouble with the scripts, feel free to contact me: jonas.thiele@uni-wuerzburg.de
+The repository contains scripts for the analyses used in the paper **"Can machine learning-based predictive modelling improve our understanding of human cognition?"** coauthored by Jonas A. Thiele, Joshua Faskowitz, Olaf Sporns, and Kirsten Hilger. Herein, intelligence is predicted from functional brain connectivity with different selections of brain links. If you have questions or trouble with the scripts, feel free to contact me: jonas.thiele@uni-wuerzburg.de
 ## 2. Data
-We used data provided by the Human Connectome project HCP (1), funded by the National Institute of Health for our main sample analysis. Data from The Amsterdam Open MRI Collection (2) were used for the replication analyses (PIOP1 and PIOP2 sample).
+We used data provided by the Human Connectome Project HCP (1), funded by the National Institute of Health for our main sample analysis. Data from the Amsterdam Open MRI Collection (2) were used for the replication analyses (PIOP1 and PIOP2 sample).
 All data used in the current study can be accessed online under: https://www.humanconnectome.org/study/hcp-young-adult (HCP), https://doi.org/10.18112/openneuro.ds002785.v2.0.0 (AOMIC-PIOP1), and https://doi.org/10.18112/openneuro.ds002790.v2.0.0 (AOMIC-PIOP2).
 ## 3. Preprocessing
 We used the minimally preprocessed HCP fMRI data (3) and implemented further preprocessing comprising a nuisance regression strategy with 24 head motion parameters, eight mean signals from white matter and cerebrospinal fluid, and four global signals (4). For task data, basis-set task regressors (5) were used with the nuisance regressors to remove mean task-evoked activations.
 Code for the further preprocessing steps is available here: https://github.com/faskowit/app-fmri-2-mat.
-For the replication, the data of The Amsterdam Open MRI Collection was downloaded in the minimal preprocessed (using fMRIPrep version 1.4.1, ref. 6) form and all further preprocessing followed the same regression steps as specified for the main sample. For all data, timeseries of neural activation were extracted from 100 nodes covering the entire cortex (7) that were assigned to the Yeo 7 canonical systems (8).
+For the replication, the data of the Amsterdam Open MRI Collection was downloaded in the minimal preprocessed (using fMRIPrep version 1.4.1, ref. 6) form and all further preprocessing followed the same regression steps as specified for the main sample. For all data, timeseries of neural activation were extracted from 100 nodes covering the entire cortex (7) that were assigned to the seven Yeo canonical systems (8).
 ## 4. Structure and script description
 ### Preparation 
 `preparation`
@@ -16,7 +16,7 @@ For the replication, the data of The Amsterdam Open MRI Collection was downloade
 1.	`exclude_subjects` - Excludes subjects with missing cognitive scores, performance scores, fMRI data and excessive head motion; extracts cognitive performance scores and motion data
   
   
-2.	`get_intelligence_factors` - Computes general (g), crystallized (gC), and fluid intelligence (gF) scores from cognitive scores
+2.	`get_intelligence_factors` - Computes general (_g_), crystallized (_g_C), and fluid intelligence (_g_F) scores from cognitive scores
   
   
 3.	`split_sample` - Splits HCP sample in a main and lockbox sample
@@ -28,7 +28,7 @@ For the replication, the data of The Amsterdam Open MRI Collection was downloade
 5.	`get_FC_100nodes_repli` - Computes functional connectivity (FC) matrices from resting state, tasks and latent FCs for replication samples
 
   
-6.	`get_nodes` - Gets nodes related to intelligence theories; needed input files "Schaefer2018_100Parcels_17Networks_order_FSLMNI152_2mm" (retrieved from: https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI), and "Multiple demand functional masks" (retrieved from: https://osf.io/pdtk9/) can be found in the folder
+6.	`get_nodes` - Gets nodes related to intelligence theories; necessary input files "Schaefer2018_100Parcels_17Networks_order_FSLMNI152_2mm" (retrieved from: https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI), and "Multiple demand functional masks" (retrieved from: https://osf.io/pdtk9/) can be found in the folder
 
 
 Subject IDs for each sample can be found in the subfolder `subject_ids`
@@ -114,7 +114,7 @@ Subject IDs for each sample can be found in the subfolder `subject_ids`
 
 ### External functions 
 
-External functions used in the scripts can be found in the `external_functions` folder. The functions can be found elsewhere but are included here for convenience: For example, the functions `agreement`, `community_louvain`, `consensus_und`, `module_degree_zscore`, and `participation_coef_sign` of the Brain Connectivity Toolbox (9) retrieved from: https://sites.google.com/site/bctnet/. Comments on the authorship and licenses of other functions are provided within the folder.
+External functions used in the scripts can be found in the `external_functions` folder. The functions can be found elsewhere but are included here for convenience: For example, the functions `agreement`, `community_louvain`, `consensus_und`, `module_degree_zscore`, and `participation_coef_sign` are part of the Brain Connectivity Toolbox (9) retrieved from: https://sites.google.com/site/bctnet/. Comments on the authorship and licenses of other functions are provided within the folder.
 
 ## 5. Software requirements
 -	Matlab version 2021a
