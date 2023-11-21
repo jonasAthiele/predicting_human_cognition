@@ -89,7 +89,7 @@ Subject IDs for each sample can be found in the subfolder `subject_ids`
 4.	`compare_results_nw` - Compare results of models trained with **n**et**w**ork-specific links between intelligence components, cognitive states and functional brain networks
 
    
-6.	`plot_results_rnrl` - Visualize results of models trained with links between **r**andom **n**odes, and with **r**andom **l**inks vs. with the most relevant links and all links
+6.	`plot_results_rnrl` - Visualize results of models trained with links between **r**andom **n**odes vs. with **r**andom **l**inks vs. with the most relevant links vs. with all links
 
    
 8.	`plot_results_it` - Visualize results of models trained with links between nodes of **i**ntelligence **t**heories
