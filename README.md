@@ -109,7 +109,7 @@ Subject IDs for each sample can be found in the subfolder `subject_ids`
 2.	`get_partiCoeff_moduleZscore` - Compute participation coefficients and within-module degree z-scores
 
    
-3.	`get_properties_relevant_edges` - Test differences between most relevant and random links
+3.	`get_properties_relevant_edges` - Test differences between the most relevant and random links
 
 
 ### External functions 
