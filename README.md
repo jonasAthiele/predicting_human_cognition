@@ -103,7 +103,7 @@ Subject IDs for each sample can be found in the subfolder `subject_ids`
 ### Post hoc
 `post_hoc`
 
-1.	`get_edge_ICC` - Compute test-retest reliability
+1.	`get_edge_ICC` - Compute link-wise (edge-wise) test-retest reliability
 
    
 2.	`get_partiCoeff_moduleZscore` - Compute participation coefficients and within-module degree z-scores
