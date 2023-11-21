@@ -16,7 +16,7 @@ For the replication, the data of the Amsterdam Open MRI Collection was downloade
 1.	`exclude_subjects` - Excludes subjects with missing cognitive scores, performance scores, fMRI data and excessive head motion; extracts cognitive performance scores and motion data
   
   
-2.	`get_intelligence_factors` - Computes general (_g_), crystallized (_g_C), and fluid intelligence (_g_F) scores from cognitive scores
+2.	`get_intelligence_factors` - Computes general (g), crystallized (gC), and fluid intelligence (gF) scores from cognitive scores
   
   
 3.	`split_sample` - Splits HCP sample in a main and lockbox sample
