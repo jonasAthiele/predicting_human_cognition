@@ -45,7 +45,7 @@ Subject IDs for each sample can be found in the subfolder `subject_ids`
 3.	`train_models_rnrlit` - Training of prediction models in the main sample (610 subjects of the HCP) with links between **r**andom **n**odes, **r**andom **l**inks, or links between nodes of **i**ntelligence **t**heories
 
 
-4.	`train_models_lrp` - Training of prediction models in the main sample (610 subjects of the HCP) with most relevant links (relevance estimated by **l**ayerwise **r**elevance **p**ropagation - LRP)
+4.	`train_models_lrp` - Training of prediction models in the main sample (610 subjects of the HCP) with the most relevant links (relevance estimated by **l**ayerwise **r**elevance **p**ropagation - LRP)
 
 
 ### Model evaluation
