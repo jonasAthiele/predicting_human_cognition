@@ -36,16 +36,16 @@ Subject IDs for each sample can be found in the subfolder `subject_ids`
 ### Model training
 `model_training`
 
-1.	`train_models_nw` - Training of prediction models on the main sample (610 subjects of the HCP) with **n**et**w**ork-specific link selections for internal and lockbox validation 
+1.	`train_models_nw` - Training of prediction models in the main sample (610 subjects of the HCP) with **n**et**w**ork-specific link selections for internal and lockbox validation 
 
 
-2.	`train_models_nw_806`  - Training of prediction models on the HCP sample (**806** subjects) with **n**et**w**ork-specific link selections for later application to the replication sample 
+2.	`train_models_nw_806`  - Training of prediction models in the HCP sample (**806** subjects) with **n**et**w**ork-specific link selections for later application to the replication sample 
 
 
-3.	`train_models_rnrlit` - Training of prediction models on the main sample (610 subjects of the HCP) with links between **r**andom **n**odes, **r**andom **l**inks, or links between nodes of **i**ntelligence **t**heories
+3.	`train_models_rnrlit` - Training of prediction models in the main sample (610 subjects of the HCP) with links between **r**andom **n**odes, **r**andom **l**inks, or links between nodes of **i**ntelligence **t**heories
 
 
-4.	`train_models_lrp` - Training of prediction models on the main sample (610 subjects of the HCP) with most relevant links (relevance estimated by **l**ayerwise **r**elevance **p**ropagation - LRP)
+4.	`train_models_lrp` - Training of prediction models in the main sample (610 subjects of the HCP) with most relevant links (relevance estimated by **l**ayerwise **r**elevance **p**ropagation - LRP)
 
 
 ### Model evaluation
