@@ -8,7 +8,7 @@ All data used in the current study can be accessed online under: https://www.hum
 ## 3. Preprocessing
 We used the minimally preprocessed HCP fMRI data (3) and implemented further preprocessing comprising a nuisance regression strategy with 24 head motion parameters, eight mean signals from white matter and cerebrospinal fluid, and four global signals (4). For task data, basis-set task regressors (5) were used with the nuisance regressors to remove mean task-evoked activations.
 Code for the further preprocessing steps is available here: https://github.com/faskowit/app-fmri-2-mat.
-For the replication, the data of the Amsterdam Open MRI Collection was downloaded in the minimal preprocessed (using fMRIPrep version 1.4.1, ref. 6) form and all further preprocessing followed the same regression steps as specified for the main sample. For all data, timeseries of neural activation were extracted from 100 nodes covering the entire cortex (7) that were assigned to the seven Yeo canonical systems (8).
+For the replication, the data of the Amsterdam Open MRI Collection was downloaded in the minimally preprocessed (using fMRIPrep version 1.4.1, ref. 6) form and all further preprocessing followed the same regression steps as specified for the main sample. For all data, timeseries of neural activation were extracted from 100 nodes covering the entire cortex (7) that were assigned to the seven Yeo canonical systems (8).
 ## 4. Structure and script description
 ### Preparation 
 `preparation`
