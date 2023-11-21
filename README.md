@@ -28,7 +28,7 @@ For the replication, the data of The Amsterdam Open MRI Collection was downloade
 5.	`get_FC_100nodes_repli` - Computes functional connectivity (FC) matrices from resting state, tasks and latent FCs for replication samples
 
   
-6.	`get_nodes` - Gets nodes related to intelligence theories; needed input files "Schaefer2018_100Parcels_17Networks_order_FSLMNI152_2mm" (retrieved from https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI), and "Multiple demand functional masks" (retrieved from: https://osf.io/pdtk9/) can be found in the folder
+6.	`get_nodes` - Gets nodes related to intelligence theories; needed input files "Schaefer2018_100Parcels_17Networks_order_FSLMNI152_2mm" (retrieved from: https://github.com/ThomasYeoLab/CBIG/tree/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI), and "Multiple demand functional masks" (retrieved from: https://osf.io/pdtk9/) can be found in the folder
 
 
 Subject IDs for each sample can be found in the subfolder `subject_ids`
