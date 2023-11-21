@@ -114,7 +114,7 @@ Subject IDs for each sample can be found in the subfolder `subject_ids`
 
 ### External functions 
 
-External functions used in the scripts can be found in the `external_functions` folder. The functions can be found elsewhere but are included here for convenience. Functions contain scripts of the Brain Connectivity Toolbox (9) retrieved from: https://sites.google.com/site/bctnet/ (agreement, community_louvain, consensus_und, module_degree_zscore, participation_coef_sign). Comments on the authorship and licenses of other functions are provided within the folder.
+External functions used in the scripts can be found in the `external_functions` folder. The functions can be found elsewhere but are included here for convenience: For example, the functions `agreement`, `community_louvain`, `consensus_und, module_degree_zscore`, and `participation_coef_sign` of the Brain Connectivity Toolbox (9) retrieved from: https://sites.google.com/site/bctnet/. Comments on the authorship and licenses of other functions are provided within the folder.
 
 ## 5. Software requirements
 -	Matlab version 2021a
