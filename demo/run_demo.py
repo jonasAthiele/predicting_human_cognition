@@ -101,7 +101,7 @@ elif link_selection == 'within_between':
     df_res = pd.DataFrame(columns = networks, data = measure_n)
     df_res.index = networks
     print(df_res)
-    name_save = 'corr_within-between' + '_' + '_' + state + '_' + score + '_' + option + '.csv'
+    name_save = 'corr_within-between' + '_' + state + '_' + score + '_' + option + '.csv'
     path_save = os.path.join('results_run_demo', name_save)
     df_res.to_csv(path_save)
 
@@ -118,7 +118,7 @@ elif link_selection == 'allbutone':
     df_res.index = [state]
     print(df_res)
     plot_allbutone(corr = res, state=state, score=score, option=option)
-    name_save = 'corr_allbutone' + '_' + '_' + state + '_' + score + '_' + option + '.csv'
+    name_save = 'corr_allbutone' + '_' + state + '_' + score + '_' + option + '.csv'
     path_save = os.path.join('results_run_demo', name_save)
     df_res.to_csv(path_save)
     
@@ -136,7 +136,7 @@ elif link_selection == 'one':
     df_res.index = [state]
     print(df_res)
     plot_one(corr = res, state=state, score=score, option=option)
-    name_save = 'corr_one' + '_' + '_' + state + '_' + score + '_' + option + '.csv'
+    name_save = 'corr_one' + '_' + state + '_' + score + '_' + option + '.csv'
     path_save = os.path.join('results_run_demo', name_save)
     df_res.to_csv(path_save)
 
@@ -154,7 +154,7 @@ elif rnrlit:
     df_res = pd.DataFrame(columns = ['link selection'], data = [res])
     df_res.index = ['r']
     print(df_res)
-    name_save = 'corr_' + link_selection + '_' + '_' + state + '_' + score + '.csv'
+    name_save = 'corr_' + link_selection + '_' + state + '_' + score + '.csv'
     path_save = os.path.join('results_run_demo', name_save)
     df_res.to_csv(path_save, index=False)
     
