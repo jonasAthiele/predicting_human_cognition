@@ -69,7 +69,48 @@ Examples:
 
 ### b) Plot performances of links between randomly choosen nodes vs. randomly chosen links, vs. most relevant links (Fig. 5F)
 
-python plot_results_rnrl.py --sample main
+python plot_results_rnrl.py --sample 'sample'
+
+Parameters\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'sample': main (default), lockbox, repli 
+
+Examples:
+          python plot_results_rnrl.py
+          python plot_results_rnrl.py --sample main
+
+### c) Plot performances of links between nodes of intelligence theories vs. links between random nodes (Fig. 5A-E)
+
+Parameter\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'theory': pfc_extended, pfit, md_diachek (default), md_duncan, cole
+
+Examples:
+          
+          python plot_results_it.py
+          python plot_results_it.py --theory md_diachek 
+
+### d) Plot performances of different numbers most relevant links (Fig. 6A)
+
+python plot_results_lrp.py --sample 'sample'
+
+Parameters\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'sample': main (default), lockbox, repli
+
+Examples:
+
+          python plot_results_lrp.py
+          python plot_results_lrp.py --sample main
 
 
- 
+### e) Plot most relevant links (Fig. 6B/C)
+
+python plot_connectograms_lrp.py --score 'score'
+
+Parameters\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'score': g (default), gc, gf
+
+Examples:
+
+        python plot_connectograms_lrp.py
+        python plot_connectograms_lrp.py --score g
+
+
