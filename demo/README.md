@@ -6,7 +6,7 @@
   
   2)	Use command prompt (e.g., Anaconda prompt) to create a new environment with requirements:
   	
-          	conda create -n  "myenv" python=3.8.18 pip
+          	conda create -n "myenv" python=3.8.18 pip
           	conda activate myenv
           	conda install pytorch==1.9.0 torchvision==0.10.0 torchaudio==0.9.0 -c pytorch
           	conda install captum==0.5.0 -c pytorch
