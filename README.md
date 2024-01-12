@@ -116,10 +116,13 @@ Subject IDs for each sample can be found in the subfolder `subject_ids`
 
 External functions used in the scripts can be found in the `external_functions` folder. The functions can be found elsewhere but are included here for convenience: For example, the functions `agreement`, `community_louvain`, `consensus_und`, `module_degree_zscore`, and `participation_coef_sign` are part of the Brain Connectivity Toolbox (9) retrieved from: https://sites.google.com/site/bctnet/. Comments on the authorship and licenses of other functions are provided within the folder.
 
+### Demo
+The `demo` folder includes minimal examples for running intelligence prediction with different brain link selections, and scripts for visualizing results found in the manuscript. See `ReadMe` within the folder for details on how to setup and how to run the scripts. 
+
 ## 5. Software requirements
 -	Matlab version 2021a
 -	R version 4.0.2
-- Python version 3.8.18, see `python_requirements.txt` file
+- Python version 3.8.18, see `python_requirements.txt` file and `ReadMe` within the `demo` folder (setup time ~ 15-30 minutes)
 
 ## References
 1.	D. C. Van Essen, et al., The WU-Minn Human Connectome Project: An overview. Neuroimage 80, 62–79 (2013).
