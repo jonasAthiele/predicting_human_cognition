@@ -122,7 +122,7 @@ The `demo` folder includes minimal examples for running intelligence prediction 
 ## 5. Software requirements
 -	Matlab version 2021a
 -	R version 4.0.2
-- Python version 3.8.18, see `python_requirements.txt` file and `ReadMe` within the `demo` folder (setup time ~ 15-30 minutes)
+- Python version 3.8.18, see `python_requirements.txt` file and `ReadMe` within the `demo` folder (setup time ~ 10 minutes)
 
 ## References
 1.	D. C. Van Essen, et al., The WU-Minn Human Connectome Project: An overview. Neuroimage 80, 62–79 (2013).
