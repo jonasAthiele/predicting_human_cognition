@@ -75,7 +75,7 @@ if link_selection == 'all':
     df_res = pd.DataFrame(columns = ['all_links'], data = [res])
     df_res.index = ['r']
     print(df_res)
-    name_save = 'corr_allLinks' + '_' + '_' + state + '_' + score + '_' + option + '.csv'
+    name_save = 'corr_allLinks' + '_' + state + '_' + score + '_' + option + '.csv'
     path_save = os.path.join('results_run_demo', name_save)
     df_res.to_csv(path_save, index=False)
 
