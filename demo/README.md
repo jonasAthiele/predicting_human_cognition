@@ -2,9 +2,9 @@
 
 ## Set up
 
-  1)	Install conda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html.
+a)	Install conda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html.
   
-  2)	Use command prompt (e.g., Anaconda prompt) to create a new environment with requirements:
+b)	Use the command prompt (e.g., Anaconda prompt) to create a new environment with requirements:
   	
           	conda create -n "myenv" python=3.8.18 pip
           	conda activate myenv
@@ -16,6 +16,10 @@
           	pip install -U matplotlib==3.5.2
           	pip install seaborn==0.11.2
           	pip install pillow==9.0.0
+
+  In case you should face an ImportError: “ImportError: DLL load failed while importing _imaging”, please try to upgrade Pilow:
+
+            pip install --upgrade Pillow
 
 Note: If you want to use Cuda (run torch models on GPU) please refer to: https://pytorch.org/get-started/locally/ for details on how to install.
 
