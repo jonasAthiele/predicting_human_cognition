@@ -92,12 +92,12 @@ elif link_selection == 'within_between':
     
     #Make df
     idx_n1, idx_n2 = np.where(np.triu(np.ones(7))==1) 
-    measure_n = np.zeros((7,7))
+    measure_n = np.empty((7,7))
+    measure_n[:] = np.nan
     for i in range(idx_n1.shape[0]):
 
         measure_n[idx_n1[i], idx_n2[i]] = res[i]
     
-    measure_n[measure_n==0] = np.nan
     df_res = pd.DataFrame(columns = networks, data = measure_n)
     df_res.index = networks
     print(df_res)
